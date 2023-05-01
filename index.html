@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="modal" id="modal">
+			<form action="" class="send_form">
+				<a href="" class="btn_close" id="btn_close"></a>
+				<div class="modal_text">Thank you</div>
+			</form>
+	</div>
+	<header>
+		<div class="container">
+		<div class="header_box d-flex">
+			<a class="header_logo" href="">
+				<img src="img/logo.png" alt="logo">
+			</a>
+			<div class="header_container">
+				<div class="header_buttons">
+					<a href="" class="header_buttons_style" id="home">HOME</a>
+					<a href="" class="header_buttons_style">ABOUT</a>
+					<a href="" class="header_buttons_style">CONTACT</a>
+				</div>
+				<div class="header_buttons_consult">
+					<a href="" class="consult_style">
+						<span class="consult_text">CALL NOW FOR A CONSULT</span>
+						<span> 123.456.7890</span>
+					</a>
+				</div>
+			</div>
+			<a href="" class="menu_toggle"><img src="img/menu_tog.svg" alt=""></a>
+		</div>
+		<div class="hero_top">
+			<div class="hero_top_box">
+				<div class="hero_top_text">
+					<div class="hero_top_text_big hero_top_outline">GET AN </div>
+					<div class="hero_top_text_big" id="top_text">INTERVENTION</div>
+				</div>
+					<div class="hero_top_text_small">Showing greater respect to older adults can be done in several ways : acknowledging and putting to use the talents and skills of older adults; creating intergenerational initiatives; and allowing older adults to stay active and independent for as long as possible.</div>
+			</div>	
+			<form action="" class="main_form">
+				<div class="form_text">Contact Us</div>
+				<div class="main_inputs_box">
+					<div class="main_inputs">
+						<input type="text" name="username" id="id1" placeholder="username">
+						<label for="id1">First Name</label>
+						<div class="alert">This field can’t be empty. Please fill it in.</div>
+					</div>
+					<div class="main_inputs">
+						<input type="text" name="username2" id="id2" placeholder="username2">
+						<label for="id2">Last Name</label>
+						<div class="alert">This field can’t be empty. Please fill it in.</div>
+					</div>
+					<div class="main_inputs">
+						<input type="text" name="email" id="id3" placeholder="email">
+						<label for="id3">Business Email</label>
+						<div class="alert">This field can’t be empty. Please fill it in.</div>
+					</div>
+					<div class="main_inputs">	
+						<input type="text" name="company" id="id4" placeholder="company">
+						<label for="id4">Company</label>
+						<div class="alert">This field can’t be empty. Please fill it in.</div>
+					</div>
+				</div>
+					<select name="country" id="selectCountry" class="main_select">
+						<option value="0">Country</option>
+						<option value="1">USA</option>
+						<option value="2">Ukraine</option>
+						<option value="3">UK</option>
+						<option value="4">Japan</option>
+						<option value="5">France</option>
+						<option value="6">Germany</option>
+						<option value="7">Spain</option>
+						<option value="8">Poland</option>
+						<option value="9">India</option>
+						<option value="10">China</option>
+						<option value="11">Italy</option>
+					</select>
+					<div class="form_button_box">
+						<button id="btn_render" type="submit" class="form_button">
+							<img src="img/mdi_send.svg" alt="">
+							<span class="form_button_text">Submit</span>
+						</button>
+					</div>
+			</form>
+		</div>
+		</div>
+		<img src="img/wave.svg" alt="" class="header_wave">
+		<img src="img/wave2.svg" alt="" class="header_wave_mobile">
+		<img src="img/mobile_header.svg" alt="" class="mobile_header">
+	</header>
+	<main>
+		<div class="main_center">
+		<div class="container">
+		<div class="main_img d-flex">
+			<img src="img/photo1.png" alt="">
+			<img src="img/photo2.png" alt="">
+			<img src="img/photo3.png" alt="">
+		</div>
+		<div class="main_img_pad">
+			<img src="img/photo_pad1.png" alt="">
+			<img src="img/photo_pad2.png" alt="">
+			<img src="img/photo_pad3.png" alt="">
+		</div>
+		<div class="hr_container">
+			<div class="main_text_big"><span class="tiny_border">WE</span> UNDERSTAND</div>
+			<hr>
+		</div>
+		<div class="main_text_small">
+			<div>
+			Older adults want to play active and meaningful roles in their lives, including as part of a social network, a neighborhood, and a community. Service providers and policymakers must consider that a lack of sense of purpose can become problematic as people age.  Engaging them in leisure activities and volunteer work is important.</div><div class="pad_top">Older adults want to stay active and contribute to society in a reciprocal manner (meaning that they want to exchange their services and skills with others for the mutual benefit of the neighborhood or community). Qualitative and quantitative studies published from 2005 to 2016 examining the social needs of older adults were eligible for inclusion.</div><div class="pad_bottom">To stimulate social contacts, neighborhood initiatives can be developed. Social meeting places, such as pubs and churches can help to foster the development of close and peripheral relationships.</div>
+			<div class="main_text_btn">
+				<a href="" class="main_text_small_button">
+					<span>92% Success Rate</span>
+					<img src="img/arrow_green.svg" alt="">
+				</a>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div class="testimonials">
+			<div class="container">
+	<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+    	<div class="swiper_slide_box">
+    		<div class="swiper_img">
+    			<img src="img/image_f1.png" alt="">
+    		</div>
+    		<div class="swiper_text_box">
+    			<span class="slider_big_text">Abbie Harvey</span>
+    			<span class="slider_small_text">I have been caring for my mom & dad off and on for about 10 years now, and I know the importance of me being there for appointments. Older people need attention, love and care that they truly deserve.</span>
+    		</div>
+    	</div>
+    </div>
+    <div class="swiper-slide">
+    	<div class="swiper_slide_box">
+    		<div class="swiper_img">
+    			<img src="img/image_m1.png" alt="">
+    		</div>
+    		<div class="swiper_text_box">
+    			<span class="slider_big_text">John Smith</span>
+    			<span class="slider_small_text">I have been caring for my mom & dad off and on for about 10 years now, and I know the importance of me being there for appointments. Older people need attention, love and care that they truly deserve.</span>
+    		</div>
+    	</div>
+    </div>
+    <div class="swiper-slide">
+    	<div class="swiper_slide_box">
+    		<div class="swiper_img">
+    			<img src="img/image_f2.png" alt="">
+    		</div>
+    		<div class="swiper_text_box">
+    			<span class="slider_big_text">Emma Piper</span>
+    			<span class="slider_small_text">I have been caring for my mom & dad off and on for about 10 years now, and I know the importance of me being there for appointments. Older people need attention, love and care that they truly deserve.</span>
+    		</div>
+    	</div>
+    </div>
+
+  </div>
+  <!-- If we need pagination -->
+  
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+</div>
+	<div class="hero_bottom">
+		<div class="container">
+			<div class="hr_container">
+				<div class="hero_bottom_text_big"><span class="tiny_border">WE </span><span>CAN ORGANIZE</span> EVERYTHING</div>
+				<hr class="hr_container_bottom">
+			</div>
+			<div class="hero_bottom_text_small">
+				<div class="interventions"><span>Interventions</span> should focus on older adult’s desire for connectedness, participation and independence.</div>
+				<div class="hero_bottom_wrapper">
+					<div>Loneliness and social isolation are growing public health concerns in our aging society. Whilst these experiences occur across the life span, 50% of individuals aged over 60 are at risk of social isolation and one-third will experience some degree of loneliness later in life. It is vital to reduce loneliness and social isolation among older adults.</div>
+					<div>The methodology framework proposed by Asked and O’Malley and further developed by Levac, et al. was used to guide the scoping review process. A total of 33 reviews met the inclusion criteria, evaluating a range of interventions targeted at older people residing in the community or institutionalised settings.</div>
+				</div>
+			</div>
+		<div class="hero_bottom_buttons_box d-flex">
+				<a href="" class="hero_bottom_buttons_link">
+					<span class="hero_bottom_buttons_content">Needs Assessment</span>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#5BC8AF"/>
+					<path d="M3.5 12C3.5 7.30814 7.30814 3.5 12 3.5C16.6919 3.5 20.5 7.30814 20.5 12C20.5 16.6919 16.6919 20.5 12 20.5C7.30814 20.5 3.5 16.6919 3.5 12Z" stroke="#5BC8AF"/>
+					</svg>
+					<span class="hero_bottom_button_info">
+	We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically.
+</span>
+				</a>
+				<a href="" class="hero_bottom_buttons_link">
+					<span class="hero_bottom_buttons_content">Treatment Planning & Placement</span>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#5BC8AF"/>
+<path d="M3.5 12C3.5 7.30814 7.30814 3.5 12 3.5C16.6919 3.5 20.5 7.30814 20.5 12C20.5 16.6919 16.6919 20.5 12 20.5C7.30814 20.5 3.5 16.6919 3.5 12Z" stroke="#5BC8AF"/>
+</svg>
+<span class="hero_bottom_button_info">
+	We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically.
+</span>
+
+				</a>
+				<a href="" class="hero_bottom_buttons_link">
+					<span class="hero_bottom_buttons_content">Transportation & Logistics</span>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#5BC8AF"/>
+<path d="M3.5 12C3.5 7.30814 7.30814 3.5 12 3.5C16.6919 3.5 20.5 7.30814 20.5 12C20.5 16.6919 16.6919 20.5 12 20.5C7.30814 20.5 3.5 16.6919 3.5 12Z" stroke="#5BC8AF"/>
+</svg>
+<span class="hero_bottom_button_info">
+	We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically.
+</span>
+
+				</a>
+				<a href="" class="hero_bottom_buttons_link">
+					<span class="hero_bottom_buttons_content">Insurance Advocacy</span>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#5BC8AF"/>
+<path d="M3.5 12C3.5 7.30814 7.30814 3.5 12 3.5C16.6919 3.5 20.5 7.30814 20.5 12C20.5 16.6919 16.6919 20.5 12 20.5C7.30814 20.5 3.5 16.6919 3.5 12Z" stroke="#5BC8AF"/>
+</svg>
+<span class="hero_bottom_button_info">
+	We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically.
+</span>
+
+				</a>
+				<a href="" class="hero_bottom_buttons_link">
+					<span class="hero_bottom_buttons_content">Employment Advocacy</span>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#5BC8AF"/>
+<path d="M3.5 12C3.5 7.30814 7.30814 3.5 12 3.5C16.6919 3.5 20.5 7.30814 20.5 12C20.5 16.6919 16.6919 20.5 12 20.5C7.30814 20.5 3.5 16.6919 3.5 12Z" stroke="#5BC8AF"/>
+</svg>
+<span class="hero_bottom_button_info">
+	We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically.
+</span>
+				</a>
+				<a href="" class="hero_bottom_buttons_link">
+					<span class="hero_bottom_buttons_content">Aftercare Planning</span>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 17H11V11H13V17ZM13 9H11V7H13V9Z" fill="#5BC8AF"/>
+<path d="M3.5 12C3.5 7.30814 7.30814 3.5 12 3.5C16.6919 3.5 20.5 7.30814 20.5 12C20.5 16.6919 16.6919 20.5 12 20.5C7.30814 20.5 3.5 16.6919 3.5 12Z" stroke="#5BC8AF"/>
+</svg>
+<span class="hero_bottom_button_info">
+	We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically.
+</span>
+</a>
+		</div>
+	 </div>
+	</div>
+	</main>
+	<footer>
+		<div class="footer_box">
+			<svg class="svg_footer" width="779" height="648" preserveAspectRatio="none" viewBox="0 0 779 648" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0 0H742.597C655.445 274 857.597 323.5 742.597 648H0V0Z" fill="white" fill-opacity="0.2"></path>
+					<path d="M0 0H719.719C635.252 274 831.175 323.5 719.719 648H0V0Z" fill="url(#paint0_linear_17406_14)"></path>
+					<defs>
+						<linearGradient id="paint0_linear_17406_14" x1="377.5" y1="0" x2="377.5" y2="648" gradientUnits="userSpaceOnUse">
+							<stop stop-color="#305D52"></stop>
+							<stop offset="1" stop-color="#153F38"></stop>
+						</linearGradient>
+					</defs>
+				</svg>
+					<svg class="svg_footer_mobile" width="768" height="673" preserveAspectRatio="none" viewBox="0 0 768 673" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M768 6.10352e-05L768 641.551C443.259 566.258 384.593 740.902 -2.80431e-05 641.551L0 2.74648e-05L768 6.10352e-05Z" fill="white" fill-opacity="0.2"></path>
+					<path d="M768 6.10352e-05L768 617.719C443.259 545.223 384.593 713.38 -2.70014e-05 617.719L0 2.74648e-05L768 6.10352e-05Z" fill="url(#paint0_linear_17408_15)"></path>
+					<defs>
+						<linearGradient id="paint0_linear_17408_15" x1="397.5" y1="8.1429" x2="397.5" y2="648" gradientUnits="userSpaceOnUse">
+							<stop stop-color="#305D52"></stop>
+							<stop offset="1" stop-color="#153F38"></stop>
+						</linearGradient>
+					</defs>
+				</svg>
+		<div class="container">
+			<div class="footer_text_big footer_position"><span class="footer_outline">WATCH </span>THE VIDEO</div>
+			<div class="footer_main footer_position">
+				<ul>
+					<li>
+						<div class="footer_main_text">
+							<div class="footer_main_big">Needs Assessment</div>
+							<div class="footer_main_small">The Advocacy Evaluation Toolkit contains the instruments used to collect data for evaluating the Consumer Voices for Coverage program. </div>
+						</div>
+					</li>
+					<li>
+						<div class="footer_main_text">
+							<div class="footer_main_big">Insurance Advocacy</div>
+							<div class="footer_main_small">We are committed to advocating for appropriate coverage and payment policies.</div>
+						</div>
+					</li>
+					<li>
+						<div class="footer_main_text">
+							<div class="footer_main_big">Treatment Planning & Placement</div>
+							<div class="footer_main_small">Patients can better understand medical procedures, discharge instructions, etc.</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="footer_video_box">
+				<div class="footer_video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/bIYMAuPEiE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="" class="btn_close_video" id="btn_close_video"></a>
+				</div>
+				<div class="footer_video_link">
+					<a href="" class="scale_svg">
+<svg width="156" height="156" viewBox="0 0 156 156" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="78" cy="78" r="76.0751" fill="#5BC8AF" fill-opacity="0.8" stroke="white" stroke-width="2"/>
+<path d="M98.6192 74.3543C101.286 75.8939 101.286 79.7429 98.6192 81.2825L67.4939 99.2528C64.8272 100.792 61.4939 98.8679 61.4939 95.7887L61.4939 59.8482C61.4939 56.769 64.8272 54.8445 67.4939 56.3841L98.6192 74.3543Z" fill="white"/>
+</svg>
+
+					</a>
+				</div>
+			</div>
+			<a href="" class="footer_main_btn">
+				<img src="img/logo_down.svg" alt="logo">
+			</a>
+		</div>
+		</div>
+		<div class="copyright">
+		<div class="container">
+			<div class="copyright_box d-flex">
+				<div class="copyright_text">@2021 Get an Intervention Inc. All rights reserved.</div>
+				<a href="" class="copyright_link"><span>Privacy Policy</span> | <span>Terms of use</span> | <span>Site Map</span></a>
+			</div>
+		</div>
+	</div>
+	</footer>
+	<script src="./main.js"></script>
+</body>
+</html>
